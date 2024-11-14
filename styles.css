@@ -1,0 +1,161 @@
+:root {
+    --peach: #FD735Fff;
+    --tangerine: #FB976Cff;
+    --lilac: #9A869Aff;
+    --gray: rgb(65, 69, 85);
+    --indigo: #204770ff;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section {
+    background-image: url('images/cologne.jpg');
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.408) 0%, rgba(0, 0, 0, 0.20) 100%), url(images/cologne.jpg) lightgray 0px -48.5px / 100% 112.676% cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+}
+
+#hero-h1 {
+    font-size: 84px;
+    margin: 23px auto 0px;
+    filter: drop-shadow(black 0px 0px 0.5rem);
+    
+}
+
+#hero-sub {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto 100px;
+    filter: drop-shadow(black 0px 0px 0.2rem);
+}
+
+
+
+#activities-div {
+    background-color: var(--gray);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#activities-head {
+    color: var(--tangerine);
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+#activities-list {
+    display: flex;
+    flex-direction: wrap;
+    flex-flow: row wrap;
+}
+
+.activity {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.activity h4 {
+    margin-bottom: 5px;
+}
+
+.activity-img {
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 30px;
+}
+
+.activity-text {
+    width: 300px;
+    text-align: left;
+}
+
+.activity-btn {
+    background-color: transparent; 
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.activity-btn:hover{
+    background-color: var(--tangerine); 
+    border: 2px solid var(--tangerine);
+    border-radius: 50px;
+    color: var(--gray);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+#guide-section {
+    display: flex;
+    background-color: var(--lilac);
+    color: var(--indigo);
+    padding: 50px auto;
+}
+
+#guide-card {
+    background-color: var(--tangerine);
+    margin: 50px auto;
+    width: 450px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    display: flex;
+}
+
+#guide-pic {
+    margin: 0 10px;
+    border-radius: 10px;
+    width: 198px;
+    height: 255px;
+}
+
+#guide-description {
+    width: 250px;
+    text-align: left;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#guide-description h3 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#guide-description h5 {
+    font-size: 20px;
+}
+
+#guide-description p {
+    margin: 10px 0;
+    font-size: 18px;
+}
